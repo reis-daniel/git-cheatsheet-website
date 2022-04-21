@@ -16,6 +16,23 @@ html {
 
 /* Main Styling */
 
+.table-container {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.git,
+.terminal {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
 .git {
   display: flex;
   flex-direction: column;
