@@ -10,13 +10,20 @@ html {
 
 /* Header Styling */
 
-.header h1 {
-  margin-bottom: 1rem;
+.headline {
+  margin-bottom: 1.5rem;
 }
 
 /* Main Styling */
 
-.git {
+.table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.git,
+.terminal {
   display: flex;
   flex-direction: column;
   gap: 1rem;
