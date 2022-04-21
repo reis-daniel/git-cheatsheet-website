@@ -28,9 +28,9 @@
           <!-- Git Repository-->
             <tr>
               <td>git add *</td>
-              <td>Änderungen werden vorgeschlagen</td>
-              <td>Durch den Stern werden alle Dateien im Verzeichnis hochgeleden</td>
-            </tr>
+              <td>Änderungen werden vorgeschlagen.</td>
+              <td>Durch den Stern werden alle Dateien im Verzeichnis hochgeladen!</td>
+            </tr>          
             <tr>
               <td>git commit -m "Nachricht"</td>
               <td>Änderungen werden bestätigt</td>
@@ -47,9 +47,14 @@
               <td>Übersicht: Welche Branches haben wir und in welchem Befinde ich mich?</td>
               <td></td>
             <tr>
-              <td>git branch <span style="font-weight: bold;">branchname</span> </td>
+              <td>git branch <span style="font-weight: bold;">branchname</span></td>
               <td>Erstellt einen neuen Branch</td>
               <td>Bei <span style="font-weight: bold;">branchname</span> immer den gewünschten (neuen) Branch einfügen</td>
+            </tr>
+            <tr>
+              <td>git checkout -b <span style="font-weight: bold;">branchname</span></td>
+              <td>Erstellt einen neuen Branch und wechselt sofort in diesen Branch.</td>
+              <td></td>
             </tr>
             <tr>
               <td>git push -u origin <span style="font-weight: bold;">branchname</span></td>
@@ -59,6 +64,11 @@
             <tr>
               <td>git checkout <span style="font-weight: bold;">branchname</span></td>
               <td>Wechselt zu dem gewünschten Branch</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>git branch -d <span style="font-weight: bold;">branchname</span></td>
+              <td>Löscht den Branch im lokalen Repository</td>
               <td></td>
             </tr>
 
